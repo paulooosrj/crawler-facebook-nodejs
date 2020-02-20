@@ -1,0 +1,17 @@
+{
+  "name": "crawler-facebook",
+  "version": "1.0.0",
+  "description": "Crawler em nodejs para pegar eventos do facebook",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
