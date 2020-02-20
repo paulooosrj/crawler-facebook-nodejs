@@ -36,7 +36,7 @@ class Bot {
     async makeBot(URL){
         
         const browser = await puppeteer.launch({
-            args: this.isDev ? ['--proxy-server=proxy.redecorp.br:8080', this.lang ] : [ this.lang ]
+            args: [ this.lang ]
         });
         
         const page = await browser.newPage();
